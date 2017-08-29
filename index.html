@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Барбершоп «Бородинский»</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic"
+          rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
+
   <body>
+
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
           <img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбершопа «Бородинский»">
         </a>
-        <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="price.html">Прайс-лист</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <ul class="user-navigation">
-          <li class="login-link">
-            <a class="login-link" href="login.html">Вход</a>
-          </li>
-        </ul>
+        <div class="main-navigation-wrapper">
+          <div class="container">
+            <ul class="site-navigation">
+              <li><a href="info.html">Информация</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="price.html">Прайс-лист</a></li>
+              <li><a href="catalog.html">Магазин</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="user-navigation">
+              <li><a class="login-link" href="login.html">Вход</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
+
     <main class="container">
 
       <h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
@@ -36,15 +42,18 @@
         <ul class="features-list">
           <li class="feature-item">
             <h3>Быстро</h3>
-            <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+            <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной
+              стрижки-минутки!</p>
           </li>
           <li class="feature-item">
             <h3>Круто</h3>
-            <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+            <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае
+              внешне.</p>
           </li>
           <li class="feature-item">
             <h3>Дорого</h3>
-            <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+            <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает
+              определенный статус?</p>
           </li>
         </ul>
       </section>
@@ -58,7 +67,8 @@
               <time datetime="2016-01-11">11 января</time>
             </li>
             <li class="news-item">
-              <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+              <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил
+                наши стройные ряды</p>
               <time datetime="2016-01-18">18 января</time>
             </li>
           </ul>
@@ -88,7 +98,7 @@
             пн—пт: с 10:00 до 22:00<br>
             сб—вс: с 10:00 до 19:00
           </p>
-          <a class="button contacts-button" href="map.html">Как проехать</a>
+          <a class="button contacts-button contacts-button-map" href="map.html">Как проехать</a>
           <a class="button contacts-button" href="contacts.html">Обратная связь</a>
         </section>
 
@@ -116,27 +126,31 @@
           </form>
         </section>
       </div>
+
     </main>
+
     <footer class="main-footer">
-      <p class="footer-contacts">
-        Барбершоп «Бородинский»<br>
-        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-        <a href="map.html">Как нас найти?</a><br>
-        Телефон: +7 (812) 666-02-66
-      </p>
-      <div class="footer-social">
-        <b>Давайте дружить!</b>
-        <ul>
-          <li><a class="social-button" href="#">Вконтакте</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Инстаграм</a></li>
-        </ul>
+      <div class="container">
+        <p class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="map.html">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </p>
+        <div class="footer-social">
+          <b>Давайте дружить!</b>
+          <ul>
+            <li><a class="social-button" href="#">Вконтакте</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+          </ul>
+        </div>
+        <p class="footer-copyright">
+          <b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+        </p>
       </div>
-      <p class="footer-copyright">
-        <b>Разработано:</b>
-        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
-      </p>
     </footer>
+
 
     <section class="modal modal-login">
       <h2>Личный кабинет</h2>
@@ -166,7 +180,8 @@
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
       <p>
-        <img src="img/map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+        <img src="img/map.jpg" width="780" height="560"
+             alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
       </p>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
